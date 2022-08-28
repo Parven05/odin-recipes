@@ -10,9 +10,15 @@ h1 {
 }
 
 h2 {
+  font-family: sans-serif;
   font-size: 35px;
-  margin-left: 0.2em;
+  margin-left: 0.1em;
+}
 
+h3 {
+  font-family: sans-serif;
+  font-size: 25px;
+  margin-left: 0.2em;
 }
 
 .links {
@@ -36,10 +42,13 @@ h2 {
 
 .container {
   text-align: center; 
-  
 }
 
-img {
+.links1 {
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.image {
   width: 350px;
   height: auto;
   object-fit: cover;
@@ -47,9 +56,29 @@ img {
   margin-left: 0.5em;
 }
 
+.image2 {
+  width: 280px;
+  height: auto;
+  object-fit: cover;
+  border: 5px solid azure;
+  margin-bottom: 2em;
+
+}
 p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   text-align: justify;
   margin-left: 0.5em;
+}
+
+.home-link {
+  color: steelblue;
+}
+
+.home-link:hover {
+  color :aquamarine
+}
+
+.home-link:visited {
+  color: palevioletred;
 }
